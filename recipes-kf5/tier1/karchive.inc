@@ -11,9 +11,8 @@ GIT_REPO = "git://anongit.kde.org/karchive;protocol=git"
 S = "${WORKDIR}/git"
 
 inherit cmake_qt5
-inherit cmake
 
-FILES_${PN} += " \
-    ${base_prefix}/usr/lib/cmake/KF5Archive/*.cmake \
-    ${base_prefix}/usr/mkspecs/modules/qt_KArchive.pri \
+FILES_${PN}-dev += " \
+    ${libdir}/cmake/KF5Archive/*.cmake \
+    ${prefix}/mkspecs/modules/qt_KArchive.pri \
 "
