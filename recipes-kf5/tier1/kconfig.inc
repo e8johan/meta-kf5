@@ -1,3 +1,5 @@
+# requires PACKAGECONFIG_append_pn-qtbase = "sm" in local.conf
+
 DESCRIPTION = "KConfig"
 HOMEPAGE = "http://api.kde.org/frameworks-api/frameworks5-apidocs/kconfig/html/index.html"
 LICENSE = "LGPL-2.1"
